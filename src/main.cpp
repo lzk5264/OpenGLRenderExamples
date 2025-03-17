@@ -1,9 +1,9 @@
 #include <iostream>
-#include "application.h"
+#include "../include/application.h"
 
 int main()
 {
-    Application app(800, 600, "zeke's OpenGL render samples");
+    Application app(800, 600, "zeke's OpenGLRenderExamples");
 
     if (!app.init())
     {

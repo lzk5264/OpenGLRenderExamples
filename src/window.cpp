@@ -48,7 +48,7 @@ bool Window::init()
 
     return true;
 }
-// 编译器大概率会直接将 shouldClose 函数内联到调用处，生成的机器码与直接调用 glfwWindowShouldClose(m_window) 完全一致，此时性能完全无差异。
+
 bool Window::shouldClose()
 {
     return glfwWindowShouldClose(m_window);
