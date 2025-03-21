@@ -13,6 +13,5 @@ public:
 
 private:
     Window m_window;
-    
     Renderer m_renderer;
 };
